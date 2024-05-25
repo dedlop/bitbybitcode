@@ -10,22 +10,63 @@ body {
     padding: 70px 0;
 }
 
-p, li {
-    color: #444;
+p,
+li {
+    color: #fff;
     font: 14px;
 }
 
 /* Barra de Navegação */
 
 header .navbar {
-    background-color: cadetblue;
+    background-color: rgb(47, 0, 47);
 }
+
+/* Barra de Navegação */
 
 #nav-container {
     padding-top: 0;
     padding-bottom: 0;
 }
 
-#logo {
-    width: 90px;
+.navbar h1 {
+    color:aliceblue;
+    font-size: 24px;
+    margin: 18px;
+}
+
+.navbar a {
+    margin: 18px;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+/* Masthead */
+
+.masthead {
+    background: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0,.2);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
 }
