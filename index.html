@@ -25,48 +25,34 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <a href="#" class="navbar-brand">
-                    <h1>BIT BY BIT - CODE</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu">Home</a>
-                        <a class="nav-item nav-link" id="about-menu">Sobre</a>
-                        <a class="nav-item nav-link" id="tech-menu">Tecnologias</a>
-                        <a class="nav-item nav-link" id="project-menu">Projetos</a>
-                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
-                    </div>
+    <header id="header">
+        <div class="container">
+
+            <div class="flex">
+
+                <a href="index.html"><i class="fa-solid fa-code"></i></a>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SOBRE</a></li>
+                        <li><a href="#">PROJETOS</a></li>
+                        <li><a href="#">TECNOLOGIAS</a></li>
+                    </ul>
+                </nav>
+
+                <div class="btn-contato">
+                    <a href="#"><button>CONTATO</button></a>
                 </div>
-            </nav>
+
+            </div>
+
         </div>
     </header>
-    <main>
-        <!-- Imagem Inicial -->
-        <div class="masthead" style="background-image: url(/img/background.png);">
-            <div class="color-overlay d-flex justify-content-center align-items-center">
-                <h1>Bit By Bit - Code</h1>
-            </div>
-        </div>
 
-        <!-- Sobre a Empresa -->
-        <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2> Sobre</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
+    <section class="banner">
+        <h1>BIT BY BIT - CODE</h1>
+    </section>
 
     
     <script src="js/scripts.js"></script>
