@@ -25,34 +25,61 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 <body>
-    <header id="header">
+        
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
         <div class="container">
 
-            <div class="flex">
-
-                <a href="index.html"><i class="fa-solid fa-code"></i></a>
-
-                <nav>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SOBRE</a></li>
-                        <li><a href="#">PROJETOS</a></li>
-                        <li><a href="#">TECNOLOGIAS</a></li>
-                    </ul>
-                </nav>
-
-                <div class="btn-contato">
-                    <a href="#"><button>CONTATO</button></a>
-                </div>
-
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-code"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" id="home-menu">Home</a>
+                    <a class="nav-item nav-link" id="about-menu">Sobre</a>
+                    <a class="nav-item nav-link" id="project-menu">Projetos</a>
+                    <a class="nav-item nav-link" id="tech-menu">Tecnologias</a>
+                </ul>
             </div>
-
+            <div class="btn-contato ml-auto">
+                <a href="#"><button>CONTATO</button></a>
+            </div>
         </div>
-    </header>
+      </nav>
 
-    <section class="banner">
+      <section class="banner">
         <h1>BIT BY BIT - CODE</h1>
-    </section>
+      </section>
+
+      <main>
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Um mundo digital em suas mãos</h2>
+                        <h3>Soluções Digitais para seu Negócio</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Manifesto: Desenvolvendo o Futuro Bit por Bit
+                                </h5>
+                                <p class="card-text">
+                                    Na BIT BY BIT CODE, acreditamos no poder transformador da tecnologia. Entendemos que cada linha de código, cada pixel desenhado, é uma oportunidade de fazer a diferença na vida das pessoas e nas empresas.<br>
+                                    Somos apaixonados por criar experiências digitais que não apenas impressionam, mas também impactam positivamente. Acreditamos que um site bem projetado não é apenas uma vitrine online, mas sim uma porta de entrada para novas oportunidades, conexões e crescimento.<br>
+                                    Investir em um site conosco significa investir no futuro do seu negócio. Significa abrir portas para um mundo de possibilidades, onde sua marca pode alcançar novos públicos, conquistar clientes e contar sua história de forma envolvente e memorável.<br>
+                                    Cada projeto que assumimos na BIT BY BIT CODE é mais do que apenas código e design. É um compromisso com a excelência, a inovação e o sucesso do nosso cliente. Estamos aqui para ajudá-lo a construir o futuro, bit por bit.<br>
+                                    Junte-se a nós nesta jornada rumo à excelência digital. Juntos, vamos transformar ideias em realidade, e potencial em resultados tangíveis.<br>
+                                    Seja bem-vindo à BIT BY BIT CODE, onde o futuro é construído um bit de cada vez.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>    
 
     
     <script src="js/scripts.js"></script>
